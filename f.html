@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Haven</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+           
+        }
+        header {
+            background: #3c3b3a;
+            color: rgb(244, 240, 191);
+            padding: 20px ;
+            text-align: center;
+            margin: auto;
+        }
+        nav {
+            margin:20px;
+        }
+        nav a {
+            margin: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        a.hover{
+            color: rgb(18, 18, 18);
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        .dard {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 35px;
+            
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .dard:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background:  #3c3b3a;
+            color:  rgb(244, 240, 191);
+        }
+        .contact-form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 4px 10px rgba(0,0,0,0.1);
+            margin: 20px ;
+            
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #6e6e6e;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            height: 50px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .contact-form button:hover {
+            background: #8abfe0;
+        }
+        
+        #img2{
+            margin-left: 50px;
+            margin-right: 60px;
+
+        }
+        #img3{
+            margin-right: 50px;
+        }
+        #m1{
+            background-color: rgba(49, 48, 49, 0);
+            color: rgb(55, 55, 55);
+        
+        }
+  
+    </style>
+</head>
+<body>
+    <script src="1.js"></script>
+    <header>
+        <h1>Welcome to Fitness Haven</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="div1"><img src="back.jpg" alt="back" width="2000px" height="600px" >
+        </div>
+    </header>
+    <marquee scrollamount="10" id="m1"><h3>Your fitness is our priority</h3></marquee>
+
+    <div class="container">
+        <section id="about" class="dard">
+            <h2>About Us</h2>
+            <img src="gym.jpg" alt="Fitness Haven" width="500" id="img2">
+            <img src="work img.webp" alt="Fitness Haven" width="500p" id="img3">
+            <br>
+            <p>At Fitness Haven, we provide a supportive environment to help you achieve your fitness goals. Whether you’re a beginner or an expert, we have something for everyone!</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="new.jpg" alt="Personal Training">
+                    <h3>Personal Training</h3>
+                    <p>Get personalized workout plans tailored to your needs.</p>
+                </div>
+                <div class="card">
+                    <img src="group exercisse.jpg" alt="Group Classes">
+                    <h3>Group Classes</h3>
+                    <p>Join our energetic group classes for motivation and fun.</p>
+                </div>
+                <div class="card">
+                    <img src="diet.jpg" alt="Nutrition Advice">
+                    <h3>Nutrition Advice</h3>
+                    <p>Receive guidance on maintaining a balanced diet.<br>
+                    To have a personal diet plan from specialist click on the link below.</p>
+                    <a href="">Click here </a>
+                </div>
+                <div class="card">
+                    <img src="wellness.jpg" alt="Wellness Programs">
+                    <h3>Wellness Programs</h3>
+                    <p>Participate in programs designed to enhance your well-being.</p>
+                </div>
+                <div class="card">
+                    <img src="gym new.jpg" alt="gym">
+                    <h3>Gym Subscriptions </h3>
+                    <p>To know about our gym subsscriptions click on learn more.
+
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+                <div class="card">
+                    <img src="workout 3.avif" alt="Wellness Programs" height="400px" width="600">
+                    <h3>Workout Links</h3>
+                    <p>You can also go through the links which are given below to know about different workouts</p>
+                    <br>
+                    <br>
+                    1.<a href="https://www.youtube.com/watch?v=-hSma-BRzoo&pp=ygUXd29ya291dCB2aWRlb3MgZm9yIG1lbiA%3D">20 Minutes Workout</a>
+                    <br>
+                    <br>
+                    2.<a href="https://www.youtube.com/watch?v=0A3EgOztptQ">Full body workout</a>
+                    <br>
+                    <br>
+                    3.<a href="https://www.youtube.com/watch?v=79cx5vmf3Qg">Full body cardio workout</a>
+                    <br>
+                    <br>
+                    4.<a href="https://www.youtube.com/watch?v=Iga0h0p6DcI">Fat burn workout</a>
+                    <br>
+                    <br>
+                    5.<a href="https://www.youtube.com/watch?v=w86EalEoFRY">Muscle building workout</a>
+                    
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form>
+                    <label>Name</label>
+                    <br><input type="text" placeholder="Your Name" required>
+                    <br>
+                    <br>
+                    <label>Email</label>
+                    <br>
+                    <input type="email" placeholder="Your Email" required>
+                    <br>
+                    <br>
+                    <lable>Number</lable>
+                    <br>
+                    <input type="number" placeholder="Number" name="mynumber" required>
+                    <br>
+                    <br>
+                    <label>About you</label>
+                    <br>
+                    <textarea rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit" >Send Message</button>&nbsp;&nbsp;
+                    <button type="reset">reset</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fitness Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
